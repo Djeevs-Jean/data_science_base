@@ -1,4 +1,4 @@
-# Data Scienc Base
+# Data Science Base
 
 ## numpy_exo1
 ``` Créez un tableau Numpy 1D contenant les nombres entiers de 0 à 9.
