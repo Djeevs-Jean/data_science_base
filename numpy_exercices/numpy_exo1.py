@@ -9,7 +9,7 @@ print(reshape3x3)
 
 """Remplacer tous les éléments négatifs du tableau 2D par 0."""
 table_negatif = np.arange(-3, 6).reshape(3,3)
-table_negatif[table_negatif < 0] = 0
+table_negatif = np.where(table_negatif < 0, 0, table_negatif)
 print(table_negatif)
 
 """Calculez la somme de tous les éléments du tableau 2D."""
